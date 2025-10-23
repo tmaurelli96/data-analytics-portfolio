@@ -7,6 +7,6 @@ Include:
 - dati generati artificialmente per analisi e progetti SQL
 
 Utilizzato per:
-- esercizi SQL (JOIN, aggregazioni, CTE);
-- creazione di viste e report;
-- esportazione verso Power BI per dashboard di spesa e fornitori.
+- esercizi SQL;
+- creazione di report;
+- esportazione verso Power BI per creazione di dashboard.
