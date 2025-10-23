@@ -1,2 +1,12 @@
-# Progetti SQL
-In questa cartella raccolgo le mie analisi e query SQL.
+### File: procurement_db.tar
+Backup PostgreSQL in formato `.tar` contenente uno schema relazionale di procurement.
+
+Include:
+- 5 tabelle: departments, suppliers, items, purchase_orders, order_details  
+- circa 220 ordini con fornitori, dipartimenti e articoli  
+- dati generati artificialmente per analisi e progetti SQL
+
+Utilizzato per:
+- esercizi SQL (JOIN, aggregazioni, CTE);
+- creazione di viste e report;
+- esportazione verso Power BI per dashboard di spesa e fornitori.
