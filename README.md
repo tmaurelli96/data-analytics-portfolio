@@ -1,24 +1,25 @@
-## Obiettivo
-Analizzare i dati di procurement di un'azienda simulata per comprendere:
-- come viene distribuita la spesa tra i diversi dipartimenti;
-- quali fornitori generano la maggiore spesa complessiva;
-- quali categorie di articoli sono più acquistate;
-- come varia la spesa nel tempo.
+## Objective
+Analyze simulated company procurement data to understand:
+- how spending is distributed across different departments;
+- which suppliers generate the highest total spending;
+- which item categories are purchased most frequently;
+- how total spending evolves over time.
 
-## Struttura del database
-Il database `procurement_db` contiene le seguenti tabelle:
-- **departments** – elenco dei dipartimenti aziendali;
-- **suppliers** – anagrafica fornitori, con rating e paese;
-- **items** – catalogo articoli e prezzi unitari;
-- **purchase_orders** – ordini di acquisto con data, fornitore e importo totale;
-- **order_details** – dettaglio degli articoli ordinati con quantità e subtotale.
+## Database Structure
+The `procurement_db` database includes the following tables:
+- **departments** – list of company departments;  
+- **suppliers** – supplier master data, including rating and country;  
+- **items** – catalog of products and services with unit prices;  
+- **purchase_orders** – purchase order headers containing date, supplier, and total amount;  
+- **order_details** – line items for each order, including quantity and subtotal.  
 
-Le relazioni sono impostate in modo da riflettere un flusso di approvvigionamento reale: ogni ordine appartiene a un dipartimento e a un fornitore, e ogni ordine può avere più articoli associati.
+The relationships are designed to reflect a realistic procurement workflow:  
+each order belongs to one department and one supplier, and each order can include multiple items.
 
-## Competenze SQL dimostrate
-- Creazione e gestione di database PostgreSQL;
-- Definizione di tabelle e chiavi esterne (schema relazionale);
-- Query con JOIN, aggregazioni e filtri;
-- Analisi temporale con funzioni su date;
-- Utilizzo di subquery e CTE per creare report sintetici;
-- Creazione di viste o dataset per strumenti BI.
+## SQL Skills Demonstrated
+- Database creation and management in PostgreSQL;  
+- Definition of tables, primary and foreign keys (relational schema design);  
+- Writing queries with `JOIN`, aggregation, and filtering;  
+- Performing time-based analysis using date functions;  
+- Using subqueries and Common Table Expressions (CTEs) for summary reports;  
+- Creating database views or datasets for integration with BI tools
