@@ -1,4 +1,4 @@
-## Database Backup (`procurement_db.tar`)
+## Database Backup (`procurement_db.sql`)
 
 This file is a full PostgreSQL database backup used in this project.
 
@@ -27,5 +27,6 @@ The database includes the following tables:
 To restore the database:
 1. Open **pgAdmin** or your PostgreSQL tool.
 2. Create a new empty database named `procurement_db`.
-3. Go to **Restore → Select File → procurement_db.tar**.
-4. Click **Restore** to import all data and relationships.
+3. Go to **Query tool → Open File → procurement_db.tar**.
+4. Execute F5
+5. Now the DB is loaded!
