@@ -18,3 +18,13 @@ FROM purchase_orders
 JOIN suppliers ON suppliers.supplier_id = purchase_orders.supplier_id
 GROUP BY name
 ORDER BY total_spend DESC
+
+-- 3. Monthly spending trend
+-- Objective: Track total procurement spend by month to identify peaks or trends.
+
+SELECT TO_CHAR(DATE_TRUNC('month', purchase_orders.order_date), 'YYYY-MM') AS month,
+       SUM(purchase_orders.total_amount) AS total_spend
+FROM purchase_orders
+GROUP BY month
+ORDER BY month
+
