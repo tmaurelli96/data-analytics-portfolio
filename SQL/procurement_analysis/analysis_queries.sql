@@ -28,3 +28,16 @@ FROM purchase_orders
 GROUP BY month
 ORDER BY month
 
+-- 4. Most Purchased Item Categories
+-- Objective: Find out which product categories are ordered most often,
+-- based on both the total number of items purchased and the total spending.
+
+SELECT 
+    category,
+    SUM(quantity) AS total_quantity,
+    SUM(subtotal) AS total_spend
+FROM order_details
+JOIN items ON items.item_id = order_details.item_id
+GROUP BY category
+ORDER BY total_quantity DESC
+
