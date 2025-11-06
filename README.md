@@ -67,7 +67,7 @@ Two interactive dashboards were designed:
 
 | Executive Overview | Supplier Performance |
 |--------------------|----------------------|
-| ![Executive Overview](PowerBI/images/executive_overview.png) | ![Supplier Performance](../PowerBI/images/supplier_performance.png) |
+| ![Executive Overview](PowerBI/images/executive_overview.png) | ![Supplier Performance](PowerBI/images/supplier_performance.png) |
 
 ---
 
