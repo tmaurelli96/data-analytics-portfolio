@@ -1,96 +1,200 @@
-# 🧾 Procurement Analytics Dashboard — Power BI & SQL
+🧾 Procurement Spend Analytics Dashboard
+Power BI • SQL • Business Intelligence
 
-This project simulates a real-world **procurement and spend analysis** case, designed to demonstrate skills in **SQL querying, data modeling, and Power BI dashboard design**.
+Bilingual README (EN / IT)
 
----
+🔎 Executive Project Summary (EN)
 
-## 🎯 Objective
-The goal of this analysis is to understand how an organization allocates spending and manages supplier relationships by exploring:
-- Total spending trends and purchasing behavior over time  
-- Departmental budget allocation  
-- Top suppliers and item categories  
-- Supplier performance by country and rating  
+This project presents a procurement spend analytics solution designed to support executive and managerial decision-making.
 
----
+Using SQL and Power BI, the analysis transforms raw transactional data into clear, actionable insights about:
 
-## 🗂️ Data Structure
-The dataset consists of five relational tables stored in a PostgreSQL / CSV database:
+How company spending is distributed
 
-| Table | Description |
-|--------|--------------|
-| **departments** | Company departments responsible for purchases |
-| **suppliers** | Vendor information including country, rating, and active status |
-| **items** | Product catalog with categories and unit prices |
-| **purchase_orders** | Header table for each purchase (date, department, supplier, total) |
-| **order_details** | Line-level purchase details (quantity, price, subtotal) |
+Which departments and suppliers drive costs
 
-> Dataset: `procurement_db` (20,000+ orders, 300 suppliers, 1,000 items, 2022–2025)  
-> Source: Synthetic dataset generated in Python for realistic procurement scenarios.
+Where concentration risk and optimization opportunities exist
 
----
+📌 Role alignment: Data Analyst | BI Analyst | Business Intelligence
 
-## 🧠 Tools & Technologies
-- **SQL (PostgreSQL)** – data modeling, joins, aggregations, and spend analysis queries  
-- **Power BI** – data visualization and KPI design  
-- **Python** – data generation and preprocessing  
-- **Excel / CSV** – flat-file support for Power BI import  
+🎯 Business Questions Answered (EN)
 
----
+This dashboard answers key questions typically asked by leadership:
 
-## 🧩 SQL Analysis
-Key queries used to extract insights:
-1. **Total spend by department**
-2. **Top suppliers by total purchase value**
-3. **Most purchased item categories**
-4. **Monthly spend trend analysis**
+Where is the company spending the most money?
 
-SQL skills demonstrated:
-- JOINs and GROUP BY aggregations  
-- Subqueries and CTEs  
-- Date functions for time-based analysis  
-- View creation for BI integration  
+Which departments and suppliers have the biggest financial impact?
 
----
+How does spending evolve over time?
 
-## 📊 Power BI Dashboard
-Two interactive dashboards were designed:
+Are we over-reliant on a small number of suppliers?
 
-### 1️⃣ Executive Spend Overview
-- Total spend, number of purchase orders, average order value  
-- Spend by department and monthly trend  
-- Top suppliers contribution  
+How balanced is supplier performance?
 
-### 2️⃣ Supplier Performance & Distribution
-- Top 10 suppliers by spend  
-- Spend by item category and country  
-- Supplier rating and activity analysis  
+🧠 Analytical Approach (EN)
 
-| Executive Overview | Supplier Performance |
-|--------------------|----------------------|
-| ![Executive Overview](PowerBI/images/executive_overview.png) | ![Supplier Performance](PowerBI/images/supplier_performance.png) |
+Data workflow
 
----
+Relational data modeling in PostgreSQL
 
-## 💡 Key Insights
-- The **IT and Operations departments** drive over 35% of total company spend.  
-- Spending peaks in **Q4**, indicating end-of-year budget usage.  
-- The top 10 suppliers account for **more than 45% of total procurement value**.  
-- Supplier ratings show a concentration between 3.5 and 4.5, indicating balanced performance.  
+SQL transformations and aggregations
 
----
+Creation of reusable analytical views
 
-## 🧭 Next Steps
-- Integrate cost trend forecasting using Python time series.  
-- Automate data refresh using Power BI Service.  
-- Extend analysis to include delivery lead times and supplier risk.  
+Visualization and KPI design in Power BI
 
----
+Focus areas
 
-📁 **Project Files**
-- `SQL/queries.sql` — main SQL scripts used for analysis  
-- `PowerBI/procurement_dashboard.pbix` — Power BI dashboard  
-- `datasets/` — generated CSV files  
+Spend visibility and cost control
 
----
+Supplier concentration and performance
 
-*Last updated: November 2025 by [Tiziano Maurelli](https://www.linkedin.com/in/tizianomaurelli/)*
+Departmental budget monitoring
+
+Time-based trend analysis
+
+🗂️ Data Model Overview (EN)
+
+Five relational tables structured in a star-like model:
+
+Table	Purpose
+purchase_orders	Fact table with order totals and dates
+order_details	Line-level transactional details
+departments	Purchasing business units
+suppliers	Supplier attributes and ratings
+items	Product categories and prices
+
+Scale
+
+20,000+ purchase orders
+
+300 suppliers
+
+1,000 items
+
+Period: 2022–2025
+
+🧩 SQL Skills Demonstrated (EN)
+
+Complex JOIN operations
+
+Aggregations and KPI calculations
+
+CTEs for modular and readable queries
+
+Time intelligence (monthly / yearly trends)
+
+SQL views optimized for BI consumption
+
+📊 Power BI Dashboards (EN)
+1️⃣ Executive Spend Overview
+
+Designed for C-level and department heads:
+
+Total spend and order volume
+
+Average order value
+
+Spend by department
+
+Monthly spend trends
+
+Top suppliers contribution
+
+2️⃣ Supplier Performance Analysis
+
+Focused on risk and optimization:
+
+Top 10 suppliers by spend
+
+Spend by category and supplier country
+
+Supplier rating distribution
+
+Active vs inactive suppliers
+
+Executive Overview	Supplier Performance
+
+	
+💡 Executive Insights (EN)
+
+IT and Operations account for over 35% of total spend
+
+Strong Q4 spending peak, indicating end-of-year budget usage
+
+Top 10 suppliers represent ~45% of total procurement value
+
+Supplier ratings are mostly concentrated between 3.5 and 4.5
+
+➡️ These insights highlight cost concentration risk and potential supplier optimization opportunities.
+
+🚀 Roadmap & Enhancements (EN)
+
+Spend forecasting using Python time-series models
+
+Automated refresh via Power BI Service
+
+Supplier risk indicators (delivery delays, dependency index)
+
+📁 Project Structure (EN)
+
+SQL/queries.sql — analytical SQL scripts
+
+PowerBI/procurement_dashboard.pbix — Power BI dashboards
+
+datasets/ — generated CSV files
+
+🇮🇹 Sintesi Esecutiva del Progetto (IT)
+
+Questo progetto presenta una soluzione di Business Intelligence per l’analisi della spesa procurement, progettata per supportare decisioni manageriali ed executive.
+
+Attraverso SQL e Power BI, i dati transazionali vengono trasformati in insight chiari e immediatamente utilizzabili su:
+
+Distribuzione della spesa
+
+Impatto di dipartimenti e fornitori
+
+Rischi di concentrazione e opportunità di ottimizzazione
+
+📌 Allineamento ruolo: Data Analyst | BI Analyst
+
+🎯 Domande di Business a cui Risponde (IT)
+
+Dove viene allocata la maggior parte della spesa?
+
+Quali dipartimenti e fornitori hanno maggiore impatto economico?
+
+Come evolve la spesa nel tempo?
+
+Esiste una dipendenza eccessiva da pochi fornitori?
+
+La performance dei fornitori è bilanciata?
+
+🧠 Approccio Analitico (IT)
+
+Modellazione dati relazionale
+
+Trasformazioni SQL e creazione KPI
+
+Analisi temporale e per dipartimento
+
+Dashboard executive-friendly in Power BI
+
+💡 Insight Principali (IT)
+
+IT e Operations generano oltre il 35% della spesa totale
+
+Picco di spesa nel Q4
+
+Elevata concentrazione sui top 10 fornitori
+
+Rating fornitori complessivamente equilibrati
+
+➡️ Evidenzia opportunità di controllo costi, razionalizzazione fornitori e ottimizzazione del budget.
+
+👤 Author
+
+Tiziano Maurelli
+🔗 LinkedIn
+
+Last update / Ultimo aggiornamento: January 2026
