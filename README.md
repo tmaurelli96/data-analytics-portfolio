@@ -1,6 +1,6 @@
 🧾 Procurement Spend Analytics Dashboard
 Power BI • SQL • Business Intelligence
-
+--------------------------
 Bilingual README (EN / IT)
 
 🔎 Executive Project Summary (EN)
@@ -14,7 +14,7 @@ How company spending is distributed
 Which departments and suppliers drive costs
 
 Where concentration risk and optimization opportunities exist
-
+-------------------------------------------------------------
 📌 Role alignment: Data Analyst | BI Analyst | Business Intelligence
 
 🎯 Business Questions Answered (EN)
