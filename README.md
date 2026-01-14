@@ -4,7 +4,7 @@ Power BI • SQL • Business Intelligence
 Bilingual README (EN / IT)
 
 🔎 Executive Project Summary (EN)
-
+--------------------------
 This project presents a procurement spend analytics solution designed to support executive and managerial decision-making.
 
 Using SQL and Power BI, the analysis transforms raw transactional data into clear, actionable insights about:
@@ -14,11 +14,9 @@ How company spending is distributed
 Which departments and suppliers drive costs
 
 Where concentration risk and optimization opportunities exist
--------------------------------------------------------------
-📌 Role alignment: Data Analyst | BI Analyst | Business Intelligence
 
 🎯 Business Questions Answered (EN)
-
+--------------------------
 This dashboard answers key questions typically asked by leadership:
 
 Where is the company spending the most money?
@@ -32,7 +30,7 @@ Are we over-reliant on a small number of suppliers?
 How balanced is supplier performance?
 
 🧠 Analytical Approach (EN)
-
+--------------------------
 Data workflow
 
 Relational data modeling in PostgreSQL
@@ -54,7 +52,7 @@ Departmental budget monitoring
 Time-based trend analysis
 
 🗂️ Data Model Overview (EN)
-
+--------------------------
 Five relational tables structured in a star-like model:
 
 Table	Purpose
@@ -75,7 +73,7 @@ Scale
 Period: 2022–2025
 
 🧩 SQL Skills Demonstrated (EN)
-
+--------------------------
 Complex JOIN operations
 
 Aggregations and KPI calculations
@@ -88,7 +86,7 @@ SQL views optimized for BI consumption
 
 📊 Power BI Dashboards (EN)
 1️⃣ Executive Spend Overview
-
+--------------------------
 Designed for C-level and department heads:
 
 Total spend and order volume
@@ -102,7 +100,7 @@ Monthly spend trends
 Top suppliers contribution
 
 2️⃣ Supplier Performance Analysis
-
+--------------------------
 Focused on risk and optimization:
 
 Top 10 suppliers by spend
@@ -117,7 +115,7 @@ Executive Overview	Supplier Performance
 
 	
 💡 Executive Insights (EN)
-
+--------------------------
 IT and Operations account for over 35% of total spend
 
 Strong Q4 spending peak, indicating end-of-year budget usage
@@ -127,9 +125,9 @@ Top 10 suppliers represent ~45% of total procurement value
 Supplier ratings are mostly concentrated between 3.5 and 4.5
 
 ➡️ These insights highlight cost concentration risk and potential supplier optimization opportunities.
-
+--------------------------
 🚀 Roadmap & Enhancements (EN)
-
+--------------------------
 Spend forecasting using Python time-series models
 
 Automated refresh via Power BI Service
@@ -137,7 +135,7 @@ Automated refresh via Power BI Service
 Supplier risk indicators (delivery delays, dependency index)
 
 📁 Project Structure (EN)
-
+--------------------------
 SQL/queries.sql — analytical SQL scripts
 
 PowerBI/procurement_dashboard.pbix — Power BI dashboards
@@ -157,9 +155,9 @@ Impatto di dipartimenti e fornitori
 Rischi di concentrazione e opportunità di ottimizzazione
 
 📌 Allineamento ruolo: Data Analyst | BI Analyst
-
+--------------------------
 🎯 Domande di Business a cui Risponde (IT)
-
+--------------------------
 Dove viene allocata la maggior parte della spesa?
 
 Quali dipartimenti e fornitori hanno maggiore impatto economico?
@@ -171,7 +169,7 @@ Esiste una dipendenza eccessiva da pochi fornitori?
 La performance dei fornitori è bilanciata?
 
 🧠 Approccio Analitico (IT)
-
+--------------------------
 Modellazione dati relazionale
 
 Trasformazioni SQL e creazione KPI
@@ -181,7 +179,7 @@ Analisi temporale e per dipartimento
 Dashboard executive-friendly in Power BI
 
 💡 Insight Principali (IT)
-
+--------------------------
 IT e Operations generano oltre il 35% della spesa totale
 
 Picco di spesa nel Q4
@@ -191,7 +189,7 @@ Elevata concentrazione sui top 10 fornitori
 Rating fornitori complessivamente equilibrati
 
 ➡️ Evidenzia opportunità di controllo costi, razionalizzazione fornitori e ottimizzazione del budget.
-
+--------------------------
 👤 Author
 
 Tiziano Maurelli
